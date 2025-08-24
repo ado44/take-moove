@@ -28,9 +28,7 @@ export function ServicesSection() {
       descKey: 'service.wedding.desc',
       features: [
         'service.wedding.feature1',
-        'service.wedding.feature2', 
-        'service.wedding.feature3',
-        'service.wedding.feature4'
+        'service.wedding.feature2'
       ],
       premiumKey: 'service.wedding.premium'
     },
@@ -41,9 +39,7 @@ export function ServicesSection() {
       descKey: 'service.airport.desc',
       features: [
         'service.airport.feature1',
-        'service.airport.feature2',
-        'service.airport.feature3', 
-        'service.airport.feature4'
+        'service.airport.feature2'
       ],
       premiumKey: 'service.airport.premium'
     },
@@ -54,9 +50,7 @@ export function ServicesSection() {
       descKey: 'service.events.desc',
       features: [
         'service.events.feature1',
-        'service.events.feature2',
-        'service.events.feature3',
-        'service.events.feature4'
+        'service.events.feature2'
       ],
       premiumKey: 'service.events.premium'
     },
@@ -67,9 +61,7 @@ export function ServicesSection() {
       descKey: 'service.tourism.desc',
       features: [
         'service.tourism.feature1',
-        'service.tourism.feature2',
-        'service.tourism.feature3',
-        'service.tourism.feature4'
+        'service.tourism.feature2'
       ],
       premiumKey: 'service.tourism.premium'
     },
@@ -110,7 +102,6 @@ export function ServicesSection() {
           <div className="relative mb-8">
             <div className="w-24 h-px bg-gradient-to-r from-transparent via-white to-transparent mx-auto" />
             <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-              <Sparkles className="w-4 h-4 text-white/60" />
             </div>
           </div>
           

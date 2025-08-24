@@ -65,9 +65,7 @@ const translations: Translations = {
     en: 'Transform your wedding into a fairy tale with our exceptional service'
   },
   'service.wedding.feature1': { fr: 'Véhicules décorés sur-mesure', en: 'Custom decorated vehicles' },
-  'service.wedding.feature2': { fr: 'Service personnalisé complet', en: 'Complete personalized service' },
-  'service.wedding.feature3': { fr: 'Ponctualité absolue garantie', en: 'Absolute punctuality guaranteed' },
-  'service.wedding.feature4': { fr: 'Coordination parfaite', en: 'Perfect coordination' },
+  'service.wedding.feature2': { fr: 'Ponctualité absolue garantie', en: 'Absolute punctuality guaranteed' },
   'service.wedding.premium': { fr: 'Forfait Prestige disponible', en: 'Prestige Package available' },
 
   'service.airport.title': { fr: 'Aéroport', en: 'Airport' },
@@ -78,8 +76,6 @@ const translations: Translations = {
   },
   'service.airport.feature1': { fr: 'Suivi des vols en temps réel', en: 'Real-time flight tracking' },
   'service.airport.feature2': { fr: 'Accueil personnalisé VIP', en: 'VIP personalized welcome' },
-  'service.airport.feature3': { fr: 'Assistance bagages incluse', en: 'Luggage assistance included' },
-  'service.airport.feature4': { fr: 'Salons d\'attente partenaires', en: 'Partner lounges access' },
   'service.airport.premium': { fr: 'Service Meet & Greet', en: 'Meet & Greet Service' },
 
   'service.events.title': { fr: 'Événementiel', en: 'Corporate Events' },
@@ -88,10 +84,8 @@ const translations: Translations = {
     fr: 'Impressionnez vos invités avec un service de transport irréprochable',
     en: 'Impress your guests with impeccable transportation service'
   },
-  'service.events.feature1': { fr: 'Flotte coordonnée premium', en: 'Premium coordinated fleet' },
-  'service.events.feature2': { fr: 'Chauffeurs en livrée', en: 'Uniformed chauffeurs' },
-  'service.events.feature3': { fr: 'Gestion multi-véhicules', en: 'Multi-vehicle management' },
-  'service.events.feature4': { fr: 'Support événementiel dédié', en: 'Dedicated event support' },
+  'service.events.feature1': { fr: 'Chauffeurs en livrée', en: 'Uniformed chauffeurs' },
+  'service.events.feature2': { fr: 'Gestion multi-véhicules', en: 'Multi-vehicle management' },
   'service.events.premium': { fr: 'Coordinateur sur site', en: 'On-site coordinator' },
 
   'service.tourism.title': { fr: 'Tourisme', en: 'Tourism' },
@@ -101,9 +95,7 @@ const translations: Translations = {
     en: 'Discover the capital with an expert and passionate driver-guide'
   },
   'service.tourism.feature1': { fr: 'Chauffeur-guide certifié', en: 'Certified driver-guide' },
-  'service.tourism.feature2': { fr: 'Itinéraires exclusifs secrets', en: 'Secret exclusive itineraries' },
-  'service.tourism.feature3': { fr: 'Arrêts photos privilégiés', en: 'Privileged photo stops' },
-  'service.tourism.feature4': { fr: 'Expérience sur-mesure', en: 'Tailor-made experience' },
+  'service.tourism.feature2': { fr: 'Expérience sur-mesure', en: 'Tailor-made experience' },
   'service.tourism.premium': { fr: 'Accès lieux privés', en: 'Private venues access' },
 
   'services.discover': { fr: 'Découvrir ce service', en: 'Discover this service' },
@@ -232,7 +224,7 @@ const translations: Translations = {
   'footer.contact.availability.value': { fr: 'Service 24h/24 - 7j/7', en: '24/7 Service' },
 
   'footer.social.title': { fr: 'Suivez notre Excellence', en: 'Follow our Excellence' },
-  'footer.copyright': { fr: 'Excellence certifiée depuis 2014.', en: 'Certified excellence since 2014.' },
+  'footer.copyright': { fr: 'Excellence certifiée depuis 2024.', en: 'Certified excellence since 2024.' },
   'footer.legal': { fr: 'Mentions légales', en: 'Legal Notice' },
   'footer.privacy': { fr: 'Confidentialité', en: 'Privacy' },
   'footer.terms': { fr: 'CGV Premium', en: 'Premium Terms' }

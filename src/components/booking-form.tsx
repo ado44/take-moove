@@ -132,14 +132,14 @@ export function BookingForm() {
 
   const createWhatsAppMessage = (data: FormData): string => {
     const title = language === 'en' 
-      ? "🏆 *NEW TAKE&MOOVE VIP BOOKING*"
-      : "🏆 *NOUVELLE RÉSERVATION TAKE&MOOVE VIP*"
+      ? "🏆 *NEW TAKE&MOOVE BOOKING*"
+      : "🏆 *NOUVELLE RÉSERVATION TAKE&MOOVE*"
       
     const clientLabel = language === 'en' ? "👤 *Premium Client:*" : "👤 *Client Premium:*"
     const serviceLabel = language === 'en' ? "🎯 *Service:*" : "🎯 *Service:*"
     const dateLabel = language === 'en' ? "📅 *Date:*" : "📅 *Date:*"
     const timeLabel = language === 'en' ? "🕐 *Time:*" : "🕐 *Heure:*"
-    const routeLabel = language === 'en' ? "📍 *Luxury Route:*" : "📍 *Trajet de Luxe:*"
+    const routeLabel = language === 'en' ? "📍 *Route:*" : "📍 *Trajet:*"
     const departureLabel = language === 'en' ? "🟢 Departure:" : "🟢 Départ:"
     const arrivalLabel = language === 'en' ? "🔴 Arrival:" : "🔴 Arrivée:"
     const passengersLabel = language === 'en' ? "👥 *Passengers:*" : "👥 *Passagers:*"
@@ -147,8 +147,8 @@ export function BookingForm() {
     const requestsLabel = language === 'en' ? "💬 *Special requests:*" : "💬 *Demandes spéciales:*"
     const noRequests = language === 'en' ? "No special requests" : "Aucune demande particulière"
     const bookingNote = language === 'en' 
-      ? `✨ *Take&Moove* - Excellence since 2014\n🕐 Booking received on ${new Date().toLocaleDateString("en-US")} at ${new Date().toLocaleTimeString("en-US")}`
-      : `✨ *Take&Moove* - Excellence depuis 2014\n🕐 Réservation reçue le ${new Date().toLocaleDateString("fr-FR")} à ${new Date().toLocaleTimeString("fr-FR")}`
+      ? `✨ *Take&Moove* - Excellence since 2024\n🕐 Booking received on ${new Date().toLocaleDateString("en-US")} at ${new Date().toLocaleTimeString("en-US")}`
+      : `✨ *Take&Moove* - Excellence depuis 2024\n🕐 Réservation reçue le ${new Date().toLocaleDateString("fr-FR")} à ${new Date().toLocaleTimeString("fr-FR")}`
 
     return `${title}
 
